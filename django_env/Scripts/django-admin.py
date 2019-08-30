@@ -1,0 +1,5 @@
+#!D:\Chaitnaya\Provide\AI-Triage-System\Front-End Web App\DJango Tutorials\hello_django\django_env\Scripts\python.exe
+from django.core import management
+
+if __name__ == "__main__":
+    management.execute_from_command_line()
