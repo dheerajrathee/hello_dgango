@@ -5,8 +5,17 @@ from datetime import datetime
 # Create your views here.
 
 
+# Replace the existing home function with the one below
 def home(request):
-    return render(request, 'home.html')
+    return render(request, "hello/home.html")
+
+
+def about(request):
+    return render(request, "hello/about.html")
+
+
+def contact(request):
+    return render(request, "hello/contact.html")
 
 
 def hello_there(request, name):
